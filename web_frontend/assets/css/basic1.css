@@ -1,0 +1,33 @@
+body{
+    background: url("../images/bgplay.jpg") no-repeat center center fixed;
+    font-family: 'Skranji', cursive;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer img{
+    float:right;
+    width: 15%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+footer p{
+    float:left;
+
+}
+/*Hide the sections*/
+.hidden{
+    display: none;
+}

@@ -1,0 +1,122 @@
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: right;
+    display: inline-block;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 0.5%;
+    margin-right: 10px;
+
+}
+
+/*Hover width 'Data'*/
+/*.data {
+    content: attr(data);
+    padding: 4px 8px;
+    color: black;
+    margin: 3px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    white-space: nowrap;
+    z-index: 2;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.5);
+}*/
+
+nav ul li a img {
+    width: 32px;
+
+}
+
+nav > ul > li:nth-child(1) {
+    float: left;
+}
+
+nav > ul > li:nth-child(1) img {
+    display: block;
+    width: 45%;
+
+}
+
+/*H1 position fix*/
+h1 {
+    position: absolute;
+    top: -1%;
+    left: 47vw;
+    font-size: 3rem;
+    margin-top: 2%;
+    z-index: 1;
+}
+
+main nav h1 {
+
+    left: 42vw;
+
+}
+
+section h1 {
+
+    left: 37vw;
+
+}
+
+
+/*Dropdown layout fix*/
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 2%;
+    max-width: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    margin-left: 90%;
+    margin-top: 6.8%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 10%;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+ul ul li:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+ul ul li:hover:nth-child(1) {
+    border-top-left-radius: 25px;
+}
+
+ul ul li:hover:nth-child(2) {
+    border-radius: 0;
+}
+
+ul ul li:hover:nth-child(3) {
+    border-bottom-left-radius: 25px;
+}
+
+.show {
+    display: block;
+}
+
+#groupLogo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+}

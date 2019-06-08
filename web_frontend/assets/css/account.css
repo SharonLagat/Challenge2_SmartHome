@@ -1,0 +1,64 @@
+/*HowestStone playarena CSS document*/
+/*------ Made  by group 27 --------*/
+
+/*Section menu*/
+
+section{
+    background-image: url("../../assets/img/boxbg/about_box.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vh;
+    height: 80vh;
+    margin: auto auto;
+    margin-top: 20vh;
+    position: relative;
+    border: solid transparent;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 10%;
+    border: solid transparent;
+}
+form{
+    border: solid transparent;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+footer img{
+    width:15%;
+}
+
+input[type=text], [type=password]{
+    font-family: 'Skranji', cursive;
+    font-size: 1rem;
+    width: 70%;
+    padding: 3% 4%;
+    margin: 2% 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display:block;
+}
+
+
+input[type=submit] {
+    font-family: 'Skranji', cursive;
+    font-size: 20px;
+    width: 70%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display:block;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+

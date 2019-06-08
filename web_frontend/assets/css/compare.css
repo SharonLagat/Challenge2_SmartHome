@@ -1,0 +1,96 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.note {
+    font-size: .8em;
+}
+.button2{
+    background-color:#A9A9A9;
+    color:#FFF;
+    font-size: 1.7rem;
+    color: black;
+    display: flex; justify-content: center;
+    margin-center: 100px;
+}
+#heat
+{
+    display:none;
+}
+body{
+    background: url("../images/night.jpg") no-repeat center center fixed;
+    font-family: 'Skranji', cursive;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer img{
+    float:right;
+    width: 15%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+footer p{
+    float:left;
+
+}
+/*Hide the sections*/
+.hidden{
+    display: none;
+}
+section{
+    background:  url("../images/about_box.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vh;
+    height: 80vh;
+    margin: auto auto;
+    margin-top: 20vh;
+
+}
+
+h1{
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    align-self: center;
+}
+
+
+section img{
+    background: url("../images/night.jpg") no-repeat center center fixed;
+    margin: auto;
+    margin-right: 5%;
+}
+
+
+
+label{
+    font-size: 1.7rem;
+    color: black;
+}
+#wrapper
+{
+    width: 75vh;
+    margin-top: 0.4%;
+    margin-left: 23%;
+    margin-right: 45%;
+}

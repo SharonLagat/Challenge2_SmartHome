@@ -1,0 +1,32 @@
+/*HowestStone playarena CSS document*/
+/*------ Made  by group 27 --------*/
+
+/*Section menu*/
+
+section{
+    background-image: url("../../assets/img/boxbg/tut_box.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vh;
+    height: 80vh;
+    margin: auto;
+    margin-top: 20vh;
+
+}
+
+section h2 {
+    display: none;
+}
+
+footer img{
+    width:15%;
+}
+
+embed{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 65vh;
+    height: 44vh;
+}
+
+

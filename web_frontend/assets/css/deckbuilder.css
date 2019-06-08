@@ -1,0 +1,223 @@
+/*HowestStone basic CSS document*/
+/*------Made by group 27--------*/
+/*-AKA THE FOUR  GENERAL PANDAS-*/
+
+/*Basics*/
+
+#deckBuilder {
+    width: 115vh;
+    height: 115vh;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/*Deck Article 1&3*/
+#availableType, #inDeckType {
+    max-height: 10%;
+}
+
+#availableType img, #inDeckType img {
+    width: 10%;
+    height: 10%;
+}
+
+
+/*Choose Hero*/
+#deckBuilder article:nth-child(4) span{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+#previousdeck {
+    background-image: url("../img/svg/arrowl.svg");
+}
+
+#nextdeck {
+    background-image: url("../img/svg/arrowr.svg");
+}
+
+#hero {
+    width: 80%;
+    height: 70%;
+}
+
+#saveDeck {
+    text-decoration: none;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(60,40,8),  	rgb(218,165,32));
+    border-image-slice: 1;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.inDeckButtons{
+    margin: 30px;
+    display: block;
+
+}
+
+
+
+#playBtn {
+    text-decoration: none;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(60,40,8),  	rgb(218,165,32));
+    border-image-slice: 1;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+}
+#deckBuilder article:nth-child(3), #deckBuilder article:nth-child(5){
+    flex: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+#deckBuilder article:nth-child(5) {
+    text-align: end;
+}
+
+#deckBuilder article div {
+    margin: 10px;
+}
+
+#deckBuilder article:nth-child(3) h2, #deckBuilder article:nth-child(5) h2 {
+    padding: 5%;
+}
+
+#deckBuilder article:nth-child(4) {
+    flex: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+#deckBuilder article:nth-child(4) > span {
+    font-size: 1.5rem;
+    margin: 2%;
+    display: inline-block;
+}
+
+#deckBuilder  article:nth-child(3) span, #deckBuilder  article:nth-child(5) span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 55vh;
+}
+
+.scroll img {
+    height: 40%;
+    width: 32%;
+}
+
+/* width */
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+body>aside {
+    border-radius: 10px;
+    background-color: #211D1A;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+body>aside img{
+    width:50%;
+
+}
+
+/* Quote adjustments */
+
+blockquote{
+    padding: 5%;
+}
+
+.character{
+    display: block;
+}
+
+/*custom alert*/
+
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 53vh;
+    height: 41vh;
+    margin-left: -150px;
+    margin-top: -100px;
+    background-image: url("../../assets/img/boxbg/alert.png");
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+}
+
+#modal p{
+    padding-top:20%;
+}
+#modal a{
+    margin-top: 30%;
+    width: 25%;
+    margin-left: 38%;
+    display:block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: #DBA901;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#close{
+    display: none;
+}
+
+#deckBuilder.hidden {
+    display: none;
+}

@@ -1,0 +1,54 @@
+/*HowestStone playarena CSS document*/
+/*------ Made  by group 27 --------*/
+
+/*Section menu*/
+
+section{
+    background-image: url("../../assets/img/boxbg/about_box.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vh;
+    height: 80vh;
+    margin: auto auto;
+    margin-top: 20vh;
+    position: relative;
+    border: solid transparent;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 10%;
+    border: solid transparent;
+}
+p{
+    margin-top: 17%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: solid transparent;
+}
+section a{
+    display: block;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 32%;
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: #DBA901;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+form{
+    border: solid transparent;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+footer img{
+    width:15%;
+}
+
+
+

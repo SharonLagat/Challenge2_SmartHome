@@ -1,0 +1,51 @@
+/*HowestStone basic CSS document*/
+/*------Made by group 27--------*/
+/*-AKA THE FOUR  GENERAL PANDAS-*/
+body {
+    background-image: url("../../assets/img/bg/bgplay.jpg");
+}
+
+
+#chooseHero{
+    width: 135vh;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    left: 0;
+    right: 0;
+}
+
+#chooseHero article{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    margin : 2%;
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+}
+
+#chooseHero article h2{
+    text-align: center;
+    font-size: 45px;
+    margin: 5px;
+}
+
+#chooseHero article figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    cursor: pointer;
+}
+
+#chooseHero article a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    display:inline-block;
+    margin-top:10%;
+    margin-bottom: 4%;
+}
